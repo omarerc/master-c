@@ -7,4 +7,7 @@ invertString:
 	cc invertString.c -o invertString
 
 networkSniffer:
-	cc networkSniffer.c -o networkSniffer 
+	cc networkSniffer.c -o networkSniffer
+
+clean:
+	rm -f helloWorld invertString networkSniffer
