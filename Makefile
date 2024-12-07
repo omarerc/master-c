@@ -9,5 +9,6 @@ invertString:
 networkSniffer:
 	cc networkSniffer.c -o networkSniffer
 
+.PHONY: clean
 clean:
 	rm -f helloWorld invertString networkSniffer
